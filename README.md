@@ -37,7 +37,7 @@ sudo docker-compose up
 
 # Criterias
 
-| Criteria met | reasons |
+| Criterias met | reasons |
 ------------- | -------------
 |1. Low latency for inference | the code is structured in oop format so as to make the inference fast, also the model used in mobilenet v2 for transfer learning which is having less number of parameters which supports faster inference with better results/accuracy|
 |2. Low inference docker image size | docker is built on top of python 3.8 image, also fastai is installed without any deps |
