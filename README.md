@@ -34,3 +34,11 @@ sudo docker-compose up
 ![using fastapi](screenshots/fastapi_post.png)
 ## using curl
 ![using curl](screenshots/curl_resp_mlops.png)
+
+# Criteras
+
+| Criteras met | reasons |
+------------- | -------------
+|1. Low latency for inference | the code is structured in oop format so as to make the inference fast, also the model used in mobilenet v2 which is having less number of parameters which supports faster inference with better results/accuracy|
+|2. Low inference docker image size | docker is built on top of python 3.8 image, also fastai is installed without any deps |
+|3. Code structure | the code is in Object oriented format for better abstraction and code is seperated and isolated for particular tasks in a different files|
