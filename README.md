@@ -4,7 +4,7 @@ sample repo for MLOps
 | file | description |
 ------------- | -------------
 | `train_mnist.ipynb` | trained using fastai |
-| `inferece.py` | python inferece |
+| `inference.py` | python inference |
 | `app.py` | deploy using fastapi |
 | `export.pkl` | fastai model |
 |  `req_mnist.txt` | requirements (not all see Dockerfile)|
